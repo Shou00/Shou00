@@ -8,7 +8,7 @@
 *******************************
 [rewrite_local]
 # > ytxj解锁VIP
-^https:\/\/m2u-api\.getkwai\.com\/api-server\/api\/v2\/vip\/vipUserInfo\/.+ url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/ytxj.js
+^https:\/\/m2u-api\.getkwai\.com\/api-server\/api\/v2\/vip\/vipUserInfo.+ url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/ytxj.js
 [mitm] 
 hostname = m2u-api.getkwai.com
 *
