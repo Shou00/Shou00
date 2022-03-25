@@ -1,8 +1,5 @@
 /*
-寰俊鍏紬鍙凤細ios榛戠鎶€
-瀹樻柟缃戠珯锛歴7aa.cn
 
-鍦圶:
 
 [rewrite_local]
 
@@ -16,8 +13,6 @@
 [mitm]
 hostname = yugedu.com
 
-JAV涓嬭浇鍦板潃锛氾紙娉ㄥ唽濉啓閭€璇风爜锛歴8rvea锛�
-https://jcapnred.com/?source=s8rvea
 
 */
 
@@ -33,7 +28,7 @@ obj = {
       "want_watch_count" : 0,
       "promotion_code" : "s8rvea",
       "vip_expired_at" : "2099-09-09T22:16:31.000+08:00",
-      "username" : "ios榛戠鎶€",
+      "username" : "ios,
       "share_url" : "https://jav3.app/?source=s8rvea",
       "last_checkin_at" : null,
       "promote_users_count" : 999,
