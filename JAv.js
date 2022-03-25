@@ -6,12 +6,12 @@
 
 [rewrite_local]
 
-#JAV瑙ｉ攣VIP浼氬憳
-^https:\/\/yugedu\.com\/api\/v1\/movies\/(.+)\/play url script-request-header javdba.js
+#JAv
+
 
 ^https:\/\/yugedu\.com\/api\/v1\/movies\/.+ url response-body "success":\d+ response-body "success":1
 
-^https:\/\/yugedu\.com\/api\/v1\/users url script-response-body javdbs.js
+^https:\/\/yugedu\.com\/api\/v1\/users url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/JAv.js
 
 [mitm]
 hostname = yugedu.com
