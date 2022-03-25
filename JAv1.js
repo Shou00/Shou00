@@ -4,7 +4,7 @@
 [rewrite_local]
 
 #JAv1
-^https:\/\/yugedu\.com\/api\/v1\/movies\/(.+)\/play url script-request-header https://raw.githubusercontent.com/Shou00/Shou00/main/JAv1.js
+^https:\/\/yugedu\.com\/api\/v1\/movies\/.*\/play url script-request-header https://raw.githubusercontent.com/Shou00/Shou00/main/JAv1.js
 
 
 
