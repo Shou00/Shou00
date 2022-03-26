@@ -9,7 +9,7 @@
 
 # > B612
 
-^https:\/\/user-kaji-api\.b612kaji\.com\/v1\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/B612
+^https:\/\/user-kaji-api\.b612kaji\.com\/v1\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/B612.js
 
 [mitm]
 hostname = user-kaji-api.b612kaji.com
