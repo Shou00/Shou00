@@ -21,7 +21,7 @@ var obj = JSON.parse($response.body);
 // 
 
 obj = {
-      "data": {
+      
               "responseCode": "0000",
               "responseMsg": "成功",
               "result": {
