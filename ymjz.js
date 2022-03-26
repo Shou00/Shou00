@@ -12,9 +12,9 @@
 *******************************
 [rewrite_local]
 # > ymjz
-^https:\/\/yimuapp\.com(:8082)?\/bookkeeping\/user\/getUser\/ url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/ymjz.js
+^https:\/\/yimuapp\.com(:8082)?\/bookkeeping\/user\/getUser\/.+ url  script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/ymjz.js
 [mitm] 
-hostname = yimuapp.com:8082
+hostname = *.com.*
 *
 *
 */
