@@ -1,0 +1,14 @@
+/*
+      软件：B612咔叽
+      脚本：破解内购订阅
+
+[rewrite_local]
+
+^https:\/\/user-kaji-api\.b612kaji\.com\/v1\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/B612
+
+[mitm]
+hostname = user-kaji-api.b612kaji.com
+
+*/
+
+U2FsdGVkX18Yn+UdzKhb2uoNI3c4iiJixSGmtMbrHI9aZ44ndoZaqH6/DKO4aHd5sSzatCErOAUoFsmAXvoGRb3r+CcYXmNRK2veW+PgOgYArgTfX+FOooVR5zMEbO625NBtT6dOSiVKjFuD5ezhyeiqcIt4uTqDPP8Gdwok/ESsTBGGXCWV2N5hi0yVciAdbRNihVIfYNIrfuMmThwY77C408GTf5V46+p8ym/Xa3bFCyZ5YPnleE1ohDkyoRMk0z2I5xNxfojd9iRj9YYvOe6Eqy5AFP5rD3MqMJ31qqLIecE3DWogW4m+KyujaOLJaobsZ9jgVhsVT86xrP7vFbSFDXqg4NTS4qgh8yPfQQ/IyUKLqz0AbzhuBUibLshXyebYDNyauf1UXREu3HPbsDfO20xE15XehEdj4IN15Fdoga4erPofLT33CI/6PfcLymj77eb3cBQK5FCc2j8RXOd8QkbE2KM5xP97LA1LoqL3F+P5yOY6hc7S92JO0B9NQRrocFvuWRGctpAoy7ZL0346+l7186jVvJ9AIwCCSe9TyO0sdCg4yO4n1blYdzOfR+ZyKfCXzlH4+dILM2X5vNPZr/aTJYiSVE2NTF9otHEpyDCK1BZRe9nQYatwKr/JG34qYQ/4IBOFirxKlaWZmTuC+NM2RkXlDPsnO9O7fub9MF4DonKKbg0OjifPzLLr1+AD5OxcgIMe2VCha5xm+HrMGez3qOJDIQifTpIP64sesiUHiNROBLn2jnB4w/1hqYdew9ubvMa0N5pHC1e6puazwgAz0S4pso6XEzPlzaDIdMVlb18ptcs7TP41ewID943PMKFeh5BDnnr9qUrqClsQDSbd9jkMB2r4Evi2H/fcJjKBQM7IFg==
