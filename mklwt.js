@@ -14,7 +14,7 @@ hostname = app.api.versa-ai.com
 
 */
 
-ar obj = JSON.parse($response.body);
+var obj = JSON.parse($response.body);
 
 if (obj.data && obj.data.result) {
     obj.data.result.isVip = 1;
@@ -22,4 +22,4 @@ if (obj.data && obj.data.result) {
 }
 
 $done({
-            body: JSON.stringify(obj
+            body: JSON.stringify(obj)
