@@ -9,7 +9,7 @@
 *******************************
 [rewrite_local]
 # > mklwt
-^https:\/\/app\.api\.versa-ai\.com\/user\/base\/getSelfUserBaseInfo .*$ url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/mklwt.js
+^https:\/\/app\.api\.versa-ai\.com\/user\/base\/getSelfUserBaseInfo url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/mklwt.js
 [mitm] 
 hostname = app.api.versa-ai.com
 *
