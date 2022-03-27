@@ -9,7 +9,7 @@
 
 # > qyxj
 
-^https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info url  script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/qyxj.js
+^https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info.+ url  script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/qyxj.js
 
 [mitm]
 hostname = user-kaji-api.b612kaji.com
