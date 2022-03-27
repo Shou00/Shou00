@@ -17,17 +17,17 @@ hostname = user-kaji-api.b612kaji.com
 *
 * 
 */
-var body = $response.body;
- 
- var obj = JSON.parse(body);
- const 1 = "/faceu/mobi/commerce/v1/subscription/user_info";
- if (url.indexOf(1) != -1) {
-  obj.flag = true;
-  obj.end_time = 3742796226; 
-  
+
+const path1 = "/commerce/v1/subscription/user_info";
+
+let obj = JSON.parse($response.body);
+
+if ($request.url.indexOf(path1) != -1){
+obj.flag = true,
+obj.end_time = 4569874528
 }
- $done({
- body
-}
+
+$done({body: JSON.stringify(obj)});
+
 );
   
