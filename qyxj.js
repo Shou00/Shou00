@@ -18,11 +18,11 @@ hostname = user-kaji-api.b612kaji.com
 * 
 */
 
-const path1 = "/commerce/v1/subscription/user_info";
+const path = "/commerce/v1/subscription/user_info";
 
 let obj = JSON.parse($response.body);
 
-if ($request.url.indexOf(path1) != -1){
+if ($request.url.indexOf(path) != -1){
 obj.flag = true,
 obj.end_time = 4569874528
 }
