@@ -23,7 +23,7 @@ let obj = JSON.parse($response.body);
  obj.data.product_type = 2;
  obj.data.type = 3;
  obj.data.ad_vip_type = 4;
- obj.data.discount_status = 64;
+ obj.data.discount_status = 64
  $done({
  body: JSON.stringify(obj)
 }
