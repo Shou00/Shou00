@@ -7,7 +7,7 @@
 *******************************
 [rewrite_local]
 # > 美图秀秀VIP解锁
-^https:\/\/api\.xiuxiu\.meitu\.com\/v1\/vip\/vip_show\.json.+ url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/mtxx.js
+^https:\/\/api\.xiuxiu\.meitu\.com\/v1\/vip\/vip_show\.json url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/mtxx.js
 
 [mitm] 
 hostname = api.xiuxiu.meitu.com
