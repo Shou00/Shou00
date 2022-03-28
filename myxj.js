@@ -6,14 +6,14 @@
 *******************************
 [rewrite_local]
 # > 美颜相机
-^https:\/\/api\.meiyan\.com\/vip\/user_info\.json.*$ url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/myxj.js
+^https:\/\/api\.meiyan\.com\/vip\/user_info\.json url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/myxj.js
 
 [mitm] 
 hostname = api.meiyan.com
 *
 *
 */
-      let obj = JSON.parse($response.body);
+let obj = JSON.parse($response.body);
  obj.response.status = 1;
  obj.response.agreement_status = 2;
  obj.response.agreement_platform = 1;
