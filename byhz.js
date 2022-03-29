@@ -7,7 +7,7 @@
 *******************************
 [rewrite_local]
 # > 鲍鱼
-^http[s]?:\/\/[0-9.]+.[0-9.]+/api(/live/room/detail?|/video/report_item?|/video/detail|/video/related?).*$ url script-requesr-header https://raw.githubusercontent.com/Shou00/Shou00/main/byhz.js
+^http[s]?:\/\/.+(/live/room/detail?|/video/report_item?|/video/detail|/video/related?).*$ url script-requesr-header https://raw.githubusercontent.com/Shou00/Shou00/main/byhz.js
 
 [mitm] 
 hostname = *.*.*
