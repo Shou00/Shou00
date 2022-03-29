@@ -20,6 +20,8 @@ var modifiedHeaders = $request.headers;
 modifiedHeaders['authorization'] = 'bearer 700bcb4cc5e54121688ba51325af105d';
 
 
-$done({headers : modifiedHeaders});
+$done({
+    headers : modifiedHeaders
+})
 
 
