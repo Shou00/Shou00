@@ -14,7 +14,7 @@ hostname = api.xianghezhaofang.com
 *
 *
 */
-let obj = JSON.parse($response.body);
+var obj = JSON.parse($response.body);
  obj.data.isVip = 1;
  obj.data.time = "2099-09-09";
  obj.data.day = "999"
