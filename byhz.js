@@ -10,7 +10,7 @@
 ^https:\/\/[0-9.]*.\w{4}/api(/live/room/detail?|/video/report_item?|/video/detail/|/video/related?|/live/plat/list?).*$ url script-request-header https://raw.githubusercontent.com/Shou00/Shou00/main/byhz.js
 
 [mitm] 
-hostname = *.*.*
+hostname = *1*
 *
 *
 */
