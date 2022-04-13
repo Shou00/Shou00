@@ -9,7 +9,7 @@
 ^https:\/\/alihk\.quickg\.cc\/api\/v5\/trial url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/Telescope.js
 
 [mitm] 
-hostname = alihk.quickg.cc
+hostname = alihk.quickg.cc 
 *
 *
 */
