@@ -14,9 +14,9 @@ hostname = hotspot-unlimited.com
 *
 *
 */
-let obj = JSON.parse($response.body);
+let obj = HTML.parse($response.body);
  obj.auto.vip = 0;
  $done({
- body: JSON.stringify(obj)
+ body: HTML.stringify(obj)
 }
 );
