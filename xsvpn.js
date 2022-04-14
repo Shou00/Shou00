@@ -14,9 +14,7 @@ hostname = hotspot-unlimited.com
 *
 *
 */
-
-var body = $response.body
-    .replace(/"vip":\d/g, "\"vip\":0");
 $done({
-    body
+    body : $response.body
+    .replace(/"vip":\d/g, "\"vip\":0")
 });
