@@ -10,9 +10,9 @@ QX MITM = cdnvideos.52zhange.com
 
 */
 
-var murl = $request.url.replace(/pre\w{4}_playlist/g,"playlist");
+var url = $request.url.replace(/pre\w{4}_playlist/g,"playlist");
 
-$done({ url : murl }); 
+ $done({ url }); 
 
 
 
