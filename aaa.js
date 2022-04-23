@@ -7,7 +7,7 @@
 *******************************
 [rewrite_local]
 # > 破解
-^https:\/\/opzzy\.kefsww\.com/(api/app/media/play|api/app/comicsChapter/isLook) url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/aaa.js
+^https:\/\/opzzy\.kefsww\.com\/api\/app/(media/play|comicsChapter/isLook) url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/aaa.js
 
 [mitm] 
 hostname = zjgeo.eqobc.com
