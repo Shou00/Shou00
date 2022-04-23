@@ -9,22 +9,23 @@
 hostname= opzzy.kefsww.com
 
 */
-var body = $response.body;
-var url = $request.url;
-var obj = JSON.parse(body);
-
 const p1 = '/api/app/media/play';
 const p2 = '/api/app/comicsChapter/isLook';
 
-if (url.indexOf(p1) != -1) {
+let obj = JSON.parse($response.body);
+
+if ($request.url.indexOf(path1) != -1){
+
     obj.data.playable = true;
     obj.data.isBuy = true;
     body = JSON.stringify(obj);
 } 
-if (url.indexOf(p2) != -1) {
+
+if ($request.url.indexOf(path1) != -1){
+
     obj.data.isBuy = true;
     obj.data.playable = true;
     body = JSON.stringify(obj);
 } 
 
-$done({body});
+$done({body: JSON.stringify(obj)});
