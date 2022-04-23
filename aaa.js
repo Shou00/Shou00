@@ -15,18 +15,18 @@ hostname = zjgeo.eqobc.com
 *
 */
 
-const path1 = "/api/app/media/play";
-const path2 = "/api/app/comicsChapter/isLook";
+const path1 = "/media/play";
+const path2 = "/comicsChapter/isLook";
 
 let obj = JSON.parse($response.body);
 
 if ($request.url.indexOf(path1) != -1){
-obj.data.playable = true,
-obj.mediaInfo.isBuy = true
+obj.data.playable = true;
+obj.mediaInfo.isBuy = true;
 }
 if ($request.url.indexOf(path2) != -1){
-obj.data.playable = true,
-obj.data.isBuy = true
+obj.data.playable = true;
+obj.data.isBuy = true;
 }
 $done({body: JSON.stringify(obj)});
     
