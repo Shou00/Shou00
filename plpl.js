@@ -9,5 +9,6 @@ QX MITM = biliapi.lubroil.cn
 
 
 */
+var url = $request.url.replace(/_\d+\.m3u8/g,".m3u8");
 
-$done( { url : $request.url.replace(/_\d+\.m3u8/g,".m3u8")});
+$done({ url }); 
