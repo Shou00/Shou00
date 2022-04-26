@@ -19,7 +19,7 @@
 
 # Huluwa解锁会员
 
-^https:\/\/api\.hongmaodan100\.com\/api\/web\/(member/user/queryDetail|/member/user/queryVipList|/video/info/searchOptLikeNew|/video/info/searchDetail|/api/web/video/plate/queryModule) url script-request-header https://raw.githubusercontent.com/Shou00/Shou00/main/ccc.js
+^https:\/\/api\.hongmaodan100\.com\/api\/web\/(member/user/queryDetail|/member/user/queryVipList|/video/info/searchOptLikeNew|/video/info/searchDetail|/video/plate/queryModule) url script-request-header https://raw.githubusercontent.com/Shou00/Shou00/main/ccc.js
 
 [mitm] 
 
