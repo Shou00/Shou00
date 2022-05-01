@@ -15,7 +15,7 @@
 
 # > 狗急VPN
 
-^https:\/\/ac\.gojapp\.com\/api\/accounts\/me.*$ url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/gj.js
+^https:\/\/ac\.gojapp\.com\/api\/accounts\/me.+ url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/gj.js
 
 [mitm] 
 
