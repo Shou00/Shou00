@@ -25,7 +25,7 @@ hostname = ac.gojapp.com
 */
 
 let obj = JSON.parse($response.body);
-obj = {"bind_at":null,"channel":"appstore","code":"4J33M","create_at":"2022-05-01T09:59:03.020000","device":{"addr":"112.64.68.140","bind_times":0,"brand":"apple","legality":true,"model":"iPhone12,1","os":"ios","register_times":1,"rooted":false,"sdk":143,"udid":"5351F58C-A2C5-48E5-8BEF-FD31CE4958C1"},"email":null,"has_password":false,"id":"626de967e9120e423207398b","mobile":null,"referral":{"accounts":0,"binds":0,"devices":0,"vips":1},"referrer":null,"sid":"813ab43d-854e-4c3b-b301-fdc43b25d3de","update_at":"2022-05-01T09:59:03.028000","vip":{"expire":"8888-08-08T10:14:03.028000","level":3}}
+obj = {"bind_at":null,"channel":"appstore","code":"4J33M","create_at":"2022-05-01T09:59:03.020000","device":{"addr":"112.64.68.140","bind_times":0,"brand":"apple","legality":true,"model":"iPhone12,1","os":"ios","register_times":1,"rooted":false,"sdk":143,"udid":"5351F58C-A2C5-48E5-8BEF-FD31CE4958C1"},"email":null,"has_password":false,"id":"vip_365d","mobile":null,"referral":{"accounts":0,"binds":0,"devices":0,"vips":1},"referrer":null,"sid":"813ab43d-854e-4c3b-b301-fdc43b25d3de","update_at":"2022-05-01T09:59:03.028000","vip":{"expire":"8888-08-08T10:14:03.028000","level":3}}
 
   
 $done({body: JSON.stringify(obj)});
