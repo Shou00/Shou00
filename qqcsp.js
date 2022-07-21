@@ -5,7 +5,7 @@
 *******************************
 [rewrite_local]
 # > 青青草
-^https?:\/\/jk\.py49ri\.com\/api\/v2\/video\/play\/ url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/qqcsp.js
+^https?:\/\/jk\.py49ri\.com\/api\/v2\/video\/play\/.*$ url script-response-body https://raw.githubusercontent.com/Shou00/Shou00/main/qqcsp.js
 
 [mitm] 
 hostname = jk.py49ri.com
